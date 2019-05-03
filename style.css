@@ -1,0 +1,39 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+.flex-container, .flex__item {
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fdde7e;
+}
+.flex__item {
+    width: 362px;
+    height:442px;
+    background-color: white;
+    flex-direction: column;
+   
+}
+.flex__list:nth-child(1) {
+    color:#02995b;
+    font-size: 70px;
+    font-weight: bold;
+}
+.flex__list:nth-child(3) {
+    font-size: 70px;
+    }
+.flex__list:last-of-type {
+    font-size: 18px;
+    color: #858585;
+    text-align: center;
+}
+.flex__item:hover {
+    height: 509px;
+    cursor: pointer;
+}
+img:hover {
+    transform: scale(2);
+}
